@@ -1,0 +1,7 @@
+---
+applications:
+- name: paasradar
+  stack: cflinuxfs2
+  memory: 64M
+  host: paasradar
+  buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
